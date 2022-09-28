@@ -1,0 +1,8 @@
+<DOCTYPE html> 
+<html lang=“en”>
+<head>
+<title>images</title>
+</head>
+<body>
+<ol type=“A”>
+<li> EB 204:01 Legal regualtions of business </li>
