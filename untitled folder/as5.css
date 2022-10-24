@@ -1,0 +1,17 @@
+body {
+      background-color: lightgrey;
+      background-image: url("images/pizzaman.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+}
+
+h1 {
+      color: red;
+      text-shadow: 2px 2px 2px lightgreen;
+}
+
+h2 {
+      color: red;
+      text-shadow: 2px 2px 2px lightgreen;
+}
