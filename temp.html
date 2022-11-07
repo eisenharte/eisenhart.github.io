@@ -10,7 +10,46 @@
  </head>
  <body>
   <form name="help">
-  Enter your favorite team: <input type=text name=first onchange="goteam();">
+  <b>Welcome to the page! How many Titles does each team have?</b>
   </form> 
  </body>
 </html>
+
+
+<html lang=”en”>
+ <head>
+ <title>Javascript</title>
+ <script>
+ function glue()
+ {
+ document.querySelector(“#Favorite team”).value =
+ document.querySelector(“#City”).value
+ + “ “
+ + document.querySelector(“#Mascot”).value
+ }
+ </script>
+ </head>
+ <body>
+ <form name=inclass>
+ Eagles: <input type=text id="Eagles"><br>
+ Phillies: <input type=text id="Phillies"
+ onchange="glue();" ><br>
+ Sixers: <input type=text id="Sixers">
+
+
+ <div id=changeText>
+Whats your favorite team to watch?
+
+ </body
+<br>
+<br>
+
+
+<input type="checkbox" id="Phillies" name="1" value="1"> <label for="Phillies">Phillies</label><br> 
+
+<input type="checkbox" id="Sixers" name="1" value="1"> <label for="Sixers">Sixers</label><br> </p4>
+
+<input type="checkbox" id="Eagles" name="1" value="1"> <label for="Eagles">Eagles</label><br> 
+	<input type="reset" value="Reset">
+ </form>
+
